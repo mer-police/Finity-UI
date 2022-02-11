@@ -1,6 +1,6 @@
 local Finity = loadstring(game:HttpGet("https://raw.githubusercontent.com/mer-police/Finity-UI/main/Finity.lua"))()
 
-local FinityWindow = Finity.new(true) -- true means dark mode false means light mode
+local FinityWindow = Finity.new(true, "test") -- true means dark mode false means light mode where test is put ur gui name
 
 FinityWindow.ChangeToggleKey(Enum.KeyCode.Insert) --- put open and cose key here
 -- CREATE A CATIGORY
