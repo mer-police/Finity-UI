@@ -171,7 +171,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		finityData.ToggleKey = NewKey
 		
 		if not projectName then
-			self2.tip.Text = "Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu"
+			self2.tip.Text = "Press '".. string.sub(tostring(NewKey), 14) .."' to hide this menu"
 		end
 		
 		if finityData.UpConnection then
@@ -303,8 +303,7 @@ function finity.new(isdark, gprojectName, thinProject)
     end
 
 	local separator = self:Create("Frame", {
-		
-			= "Separator",
+		Name = "Separator",
 		BackgroundColor3 = theme.separator_color,
 		BorderSizePixel = 0,
 		Position = UDim2.new(0, 118, 0, 30),
@@ -1546,4 +1545,7 @@ function finity.new(isdark, gprojectName, thinProject)
 
 	return self2, finityData
 end
+
+Print("Borb Greets you")
+
 return finity
