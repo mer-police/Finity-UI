@@ -1546,6 +1546,6 @@ function finity.new(isdark, gprojectName, thinProject)
 	return self2, finityData
 end
 
-Print("Borb Greets you")
+print("Borb Greets you")
 
 return finity
