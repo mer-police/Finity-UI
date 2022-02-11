@@ -295,7 +295,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	if projectName then
 		self2.tip.Text = projectName
 	else
-		self2.tip.Text = "Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu"
+		self2.tip.Text = "BorbHub"
 	end
     
     function finity.settitle(text)
@@ -303,7 +303,8 @@ function finity.new(isdark, gprojectName, thinProject)
     end
 
 	local separator = self:Create("Frame", {
-		Name = "Separator",
+		
+			= "Separator",
 		BackgroundColor3 = theme.separator_color,
 		BorderSizePixel = 0,
 		Position = UDim2.new(0, 118, 0, 30),
